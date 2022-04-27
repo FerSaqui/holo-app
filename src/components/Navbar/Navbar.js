@@ -1,17 +1,26 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
- 
+import { AuthContext } from '../../auth/autContext';
+import { types } from '../../types/types';
+
 export const Navbar = () => {
+    //Obtener el contexto del Higher Order Component
+    const { user, dispatch } = useContext(AuthContext);
+
     const navegacion = useNavigate();
 
     const handleLogout = () => {
+        dispatch({
+            type: types.logout
+        });
+
         navegacion("/login", {
             replace: true //Reemplaza la vista actual o que reemplace la historia en lugar de crear una nueva entrada en la historia
         });
     }
 
     return (
- 
+
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
                 <NavLink to="/" className="navbar-brand">Hololive</NavLink>
@@ -30,8 +39,15 @@ export const Navbar = () => {
                             <NavLink to="/search" className="nav-link">Search</NavLink>
                         </li>
                     </ul>
+
+                    {/* <ul className="navbar-nav"> */}
+                    {/* </ul> */}
+
                     <ul className="navbar-nav">
-                        <button 
+                        <span className="nav-item text-white ms-5">
+                            {user.name}
+                        </span>
+                        <button
                             className="nav-item bg-danger"
                             onClick={handleLogout}
                         >
