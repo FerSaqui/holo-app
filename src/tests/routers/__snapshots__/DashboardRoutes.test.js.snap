@@ -1,0 +1,879 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <DashboardRoutes /> Debe de mostrarse correctamente - HoloEN 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark"
+  >
+    <div
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        Hololive
+      </a>
+      <button
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-bs-target="#navbarText"
+        data-bs-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarText"
+      >
+        <ul
+          className="navbar-nav me-auto mb-2 mb-lg-0"
+        >
+          <li
+            className="nav-item"
+          >
+            <a
+              aria-current="page"
+              className="nav-link active"
+              href="/holoEN"
+              onClick={[Function]}
+            >
+              Holo EN
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-link"
+              href="/holoJP"
+              onClick={[Function]}
+            >
+              Holo JP
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-link"
+              href="/search"
+              onClick={[Function]}
+            >
+              Search
+            </a>
+          </li>
+        </ul>
+        <ul
+          className="navbar-nav"
+        >
+          <span
+            className="nav-item text-white ms-5"
+            id="txtNombre"
+          >
+            Fernando
+          </span>
+          <button
+            className="nav-item bg-danger"
+            onClick={[Function]}
+          >
+            Logout
+          </button>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="container"
+  >
+    Array [
+      <h1>
+        HoloScreen EN
+      </h1>,
+      <div
+        className="row animate__animated animate__fadeIn"
+      >
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Ceres Fauna"
+              className="card-img img-fluid"
+              src="/assets/EN-Ceres-Fauna.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/EN-Ceres-Fauna"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Ceres Fauna
+                </h5>
+              </a>
+              <p
+                className="card-text bg-danger rounded-pill"
+              >
+                Hololive EN
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Ceres Fauna's debut was scheduled on 22 August
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Gawr Gura"
+              className="card-img img-fluid"
+              src="/assets/EN-Gawr-Gura.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/EN-Gawr-Gura"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Gawr Gura
+                </h5>
+              </a>
+              <p
+                className="card-text bg-danger rounded-pill"
+              >
+                Hololive EN
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Gura's debut stream was scheduled for 12 September 2020 at 2PM PDT,[TZ] although she was 12 minutes and 32 seconds late to her own debut stream due to a technical issue. She was the fourth of the five original members of hololive English to debut on the same day.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Hakos Baelz"
+              className="card-img img-fluid"
+              src="/assets/EN-Hakos-Baelz.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/EN-Hakos-Baelz"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Hakos Baelz
+                </h5>
+              </a>
+              <p
+                className="card-text bg-danger rounded-pill"
+              >
+                Hololive EN
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Hakos Baelz's debut was originally scheduled for 22 August, by Japan time. A -Council- group collaboration on her channel was tentatively scheduled two hours later.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Mori Calliope"
+              className="card-img img-fluid"
+              src="/assets/EN-Mori-Calliope.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/EN-Mori-Calliope"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Mori Calliope
+                </h5>
+              </a>
+              <p
+                className="card-text bg-danger rounded-pill"
+              >
+                Hololive EN
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Calli made her debut stream on 12 September 2020.[TZ] She was the first member of hololive -Myth- to debut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Nanashi Mumei"
+              className="card-img img-fluid"
+              src="/assets/EN-Nanashi-Mumei.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/EN-Nanashi-Mumei"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Nanashi Mumei
+                </h5>
+              </a>
+              <p
+                className="card-text bg-danger rounded-pill"
+              >
+                Hololive EN
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Nanashi Mumei's debut was scheduled for 22 August. However, the -Council- debuts were postponed for 24 hours due to unspecified technical issues, which members jokingly blamed on the 'EN curse', a perceived tendency for hololive English members to suffer from unexpected technical problems
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Ninomae Ina"
+              className="card-img img-fluid"
+              src="/assets/EN-Ninomae-Ina.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/EN-Ninomae-Ina"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Ninomae Ina
+                </h5>
+              </a>
+              <p
+                className="card-text bg-danger rounded-pill"
+              >
+                Hololive EN
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Ina made her debut stream on 12 September 2020. She was the third member of hololive -Myth- to debut
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Ouro Kronii"
+              className="card-img img-fluid"
+              src="/assets/EN-Ouro-Kronii.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/EN-Ouro-Kronii"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Ouro Kronii
+                </h5>
+              </a>
+              <p
+                className="card-text bg-danger rounded-pill"
+              >
+                Hololive EN
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Ouro Kronii's debut was scheduled for Sunday, 22 August. However, the -Council- debuts were postponed for 24 hours due to unspecified technical issues, which members jokingly blamed on the 'EN curse', a perceived tendency for hololive English members to suffer from unexpected technical problems.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Takanashi Kiara"
+              className="card-img img-fluid"
+              src="/assets/EN-Takanashi-Kiara.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/EN-Takanashi-Kiara"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Takanashi Kiara
+                </h5>
+              </a>
+              <p
+                className="card-text bg-danger rounded-pill"
+              >
+                Hololive EN
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Kiara made her debut stream on 12 September 2020. She was the second member of hololive -Myth- to debut. Her debut stream opened with a storybook animation narrated by Mori Calliope. She was extremely nervous at the beginning of the stream, during which spoke English, Japanese and German.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Watson Amelia"
+              className="card-img img-fluid"
+              src="/assets/EN-Watson-Amelia.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/EN-Watson-Amelia"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Watson Amelia
+                </h5>
+              </a>
+              <p
+                className="card-text bg-danger rounded-pill"
+              >
+                Hololive EN
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Ame made her debut stream on 12 September 2020.[TZ] She was the fifth and final member of hololive -Myth- to debut. Ame had slept only a few hours in the 36 hours before her stream, having stayed up to watch the previous members' debuts and prepare content for her own
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>,
+    ]
+  </div>,
+]
+`;
+
+exports[`Pruebas en <DashboardRoutes /> Debe de mostrarse correctamente - HoloJP (Ruta por defecto) 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark"
+  >
+    <div
+      className="container-fluid"
+    >
+      <a
+        aria-current="page"
+        className="navbar-brand active"
+        href="/"
+        onClick={[Function]}
+      >
+        Hololive
+      </a>
+      <button
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-bs-target="#navbarText"
+        data-bs-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarText"
+      >
+        <ul
+          className="navbar-nav me-auto mb-2 mb-lg-0"
+        >
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-link"
+              href="/holoEN"
+              onClick={[Function]}
+            >
+              Holo EN
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-link"
+              href="/holoJP"
+              onClick={[Function]}
+            >
+              Holo JP
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-link"
+              href="/search"
+              onClick={[Function]}
+            >
+              Search
+            </a>
+          </li>
+        </ul>
+        <ul
+          className="navbar-nav"
+        >
+          <span
+            className="nav-item text-white ms-5"
+            id="txtNombre"
+          >
+            Fernando
+          </span>
+          <button
+            className="nav-item bg-danger"
+            onClick={[Function]}
+          >
+            Logout
+          </button>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="container"
+  >
+    <div
+      className="container"
+    >
+      <h1>
+        HoloScreen JP
+      </h1>
+      <div
+        className="row animate__animated animate__fadeIn"
+      >
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Hoshimachi Suisei"
+              className="card-img img-fluid"
+              src="/assets/JP-Hoshimachi-Suisei.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/JP-Hoshimachi-Suisei"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Hoshimachi Suisei
+                </h5>
+              </a>
+              <p
+                className="card-text bg-warning rounded-pill"
+              >
+                Hololive JP
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                On 12 November, she debuted her third 2D costume, in this costume she wears a black dress with a blue jacket, both the dress and the jacket are decorated with blue ribbons and laces, she wears a black belt with the words: 'Sphere' and 'Comet', she uses orange socks and black and short black boots
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Minato Aqua"
+              className="card-img img-fluid"
+              src="/assets/JP-Minato-Aqua.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/JP-Minato-Aqua"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Minato Aqua
+                </h5>
+              </a>
+              <p
+                className="card-text bg-warning rounded-pill"
+              >
+                Hololive JP
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                On 26 September, Aqua debuted with a new 2D Live costume. She now wears two large braids, with the two small braids on each side of her bangs from her original design, decorated with a light navy blue headband. Her white top resembles a sailor fuku, with a pastel navy blue ribbon bow, and a row of little buttons going down the center.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Momosuzu Nene"
+              className="card-img img-fluid"
+              src="/assets/JP-Momosuzu-Nene.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/JP-Momosuzu-Nene"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Momosuzu Nene
+                </h5>
+              </a>
+              <p
+                className="card-text bg-warning rounded-pill"
+              >
+                Hololive JP
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Nene's debut stream took place on 13 August 2020. She reached 100,000 subscribers that same day. Nene was the second member of hololive 5th generation to audition.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Omaru Polka"
+              className="card-img img-fluid"
+              src="/assets/JP-Omaru-Polka.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/JP-Omaru-Polka"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Omaru Polka
+                </h5>
+              </a>
+              <p
+                className="card-text bg-warning rounded-pill"
+              >
+                Hololive JP
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                She was introduced on hololive’s YouTube channel in a small introductory video along with the rest of the fifth gen on 6 August 2020.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Sakura Miko"
+              className="card-img img-fluid"
+              src="/assets/JP-Sakura-Miko.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/JP-Sakura-Miko"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Sakura Miko
+                </h5>
+              </a>
+              <p
+                className="card-text bg-warning rounded-pill"
+              >
+                Hololive JP
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                On 24 January, she participated in hololive 1st fes. Nonstop Story, along with the other hololive girls up to the third generation, where she debuted her 3D idol outfit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Shirakami Fubuki"
+              className="card-img img-fluid"
+              src="/assets/JP-Shirakami-Fubuki.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/JP-Shirakami-Fubuki"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Shirakami Fubuki
+                </h5>
+              </a>
+              <p
+                className="card-text bg-warning rounded-pill"
+              >
+                Hololive JP
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                On 17 October, she debuted her first 3D model becoming the fourth hololive member to do so after Tokino Sora, Roboco, and Sakura Miko.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Tokoyami Towa"
+              className="card-img img-fluid"
+              src="/assets/JP-Tokoyami-Towa.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/JP-Tokoyami-Towa"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Tokoyami Towa
+                </h5>
+              </a>
+              <p
+                className="card-text bg-warning rounded-pill"
+              >
+                Hololive JP
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                On 1 January, she debuted her second 2D costume, a new year furisode during a stream, this costume has two different hairstyles one with a side ponytail and another with short hair, the flowers ornament can be used with either hairstyle.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Tsunomaki Watame"
+              className="card-img img-fluid"
+              src="/assets/JP-Tsunomaki-Watame.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/JP-Tsunomaki-Watame"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Tsunomaki Watame
+                </h5>
+              </a>
+              <p
+                className="card-text bg-warning rounded-pill"
+              >
+                Hololive JP
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                Watame was introduced along with the rest of the fourth gen on 25 December, 2019. Her Twitter account was created on November 2019, while her first tweet was made on 25 December, her YouTube channel was created on 4 December and her debut stream was on 29 December.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+        >
+          <div
+            className="card text-white"
+          >
+            <img
+              alt="Yukihana Lamy"
+              className="card-img img-fluid"
+              src="/assets/JP-Yukihana-Lamy.png"
+            />
+            <div
+              className="card-img-overlay"
+            >
+              <a
+                href="/vtuber/JP-Yukihana-Lamy"
+                onClick={[Function]}
+              >
+                <h5
+                  className="card-title bg-info rounded-pill"
+                >
+                  Yukihana Lamy
+                </h5>
+              </a>
+              <p
+                className="card-text bg-warning rounded-pill"
+              >
+                Hololive JP
+              </p>
+              <p
+                className="card-text bg-info rounded position-absolute bottom-0 start-0"
+              >
+                She was introduced on hololive's YouTube channel in a small introductory video along with the rest of the fifth gen on 6 August.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <navbar /> Debe de mostrarse correctamente 1`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-dark bg-dark"
+>
+  <div
+    className="container-fluid"
+  >
+    <a
+      aria-current="page"
+      className="navbar-brand active"
+      href="/"
+      onClick={[Function]}
+    >
+      Hololive
+    </a>
+    <button
+      aria-controls="navbarText"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      data-bs-target="#navbarText"
+      data-bs-toggle="collapse"
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="navbarText"
+    >
+      <ul
+        className="navbar-nav me-auto mb-2 mb-lg-0"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/holoEN"
+            onClick={[Function]}
+          >
+            Holo EN
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/holoJP"
+            onClick={[Function]}
+          >
+            Holo JP
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="navbar-nav"
+      >
+        <span
+          className="nav-item text-white ms-5"
+          id="txtNombre"
+        >
+          Fernando
+        </span>
+        <button
+          className="nav-item bg-danger"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;

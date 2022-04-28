@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchScreen /> Debe de mostrar una vtuber y el input con el valor del queryString 1`] = `
+Array [
+  <h1>
+    Search
+  </h1>,
+  <hr />,
+  <form
+    className="container"
+    onSubmit={[Function]}
+  >
+    <div
+      className="row mb-3"
+    >
+      <div
+        className="col-9 col-lg-10"
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          id="searchInput"
+          name="searchText"
+          onChange={[Function]}
+          type="text"
+          value="suisei"
+        />
+      </div>
+      <div
+        className="col-3 col-lg-2"
+      >
+        <button
+          className="btn btn-primary w-100"
+          type="submit"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="col-12 col-md-6 col-lg-4 my-5 text-center animate__animated animate__fadeIn"
+      >
+        <div
+          className="card text-white"
+        >
+          <img
+            alt="Hoshimachi Suisei"
+            className="card-img img-fluid"
+            src="/assets/JP-Hoshimachi-Suisei.png"
+          />
+          <div
+            className="card-img-overlay"
+          >
+            <a
+              href="/vtuber/JP-Hoshimachi-Suisei"
+              onClick={[Function]}
+            >
+              <h5
+                className="card-title bg-info rounded-pill"
+              >
+                Hoshimachi Suisei
+              </h5>
+            </a>
+            <p
+              className="card-text bg-warning rounded-pill"
+            >
+              Hololive JP
+            </p>
+            <p
+              className="card-text bg-info rounded position-absolute bottom-0 start-0"
+            >
+              On 12 November, she debuted her third 2D costume, in this costume she wears a black dress with a blue jacket, both the dress and the jacket are decorated with blue ribbons and laces, she wears a black belt with the words: 'Sphere' and 'Comet', she uses orange socks and black and short black boots
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>,
+]
+`;
+
+exports[`Pruebas en <SearchScreen /> Debe de mostrarse coreectamente con valores por defecto 1`] = `
+Array [
+  <h1>
+    Search
+  </h1>,
+  <hr />,
+  <form
+    className="container"
+    onSubmit={[Function]}
+  >
+    <div
+      className="row mb-3"
+    >
+      <div
+        className="col-9 col-lg-10"
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          id="searchInput"
+          name="searchText"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="col-3 col-lg-2"
+      >
+        <button
+          className="btn btn-primary w-100"
+          type="submit"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info text-center"
+      >
+        Search a vtuber!
+      </div>
+    </div>
+  </form>,
+]
+`;

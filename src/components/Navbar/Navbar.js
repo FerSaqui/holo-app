@@ -44,7 +44,7 @@ export const Navbar = () => {
                     {/* </ul> */}
 
                     <ul className="navbar-nav">
-                        <span className="nav-item text-white ms-5">
+                        <span className="nav-item text-white ms-5" id="txtNombre">
                             {user.name}
                         </span>
                         <button
